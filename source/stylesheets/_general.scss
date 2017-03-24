@@ -9,7 +9,11 @@ iframe {
   margin: 0 auto;
   display: block;
   width: 100%;
-  height: 1810px;
+  height: 1950px;
+
+  @include mq('tablet-wide') {
+    height: 1810px;
+  }
 }
 
 /*
