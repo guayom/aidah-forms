@@ -1,10 +1,10 @@
 <div class="slider-container">
   <ul id="slides">
-    <li class="slide showing">Slide 1</li>
-    <li class="slide">Slide 2</li>
-    <li class="slide">Slide 3</li>
-    <li class="slide">Slide 4</li>
-    <li class="slide">Slide 5</li>
+    <% [1, 2, 3, 4, 5].each_with_index do |n| %>
+      <li class="slide <%= 'showing' if n == 1 %>">
+        <img src="/images/<%= n %>.png" />
+      </li>
+    <% end %>
   </ul>
 
   <div class="buttons">
