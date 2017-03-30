@@ -1,6 +1,6 @@
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,2000);
+var slideInterval = setInterval(nextSlide,4000);
 var playing = true;
 var pauseButton = document.getElementById('pause');
 var next = document.getElementById('next');
