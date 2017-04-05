@@ -13,6 +13,9 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "partials/slider" %>
+    <iframe src="<%= data.forms.find{ |f| f.name == current_page.data.form }.link %>&hl=es" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <%= partial 'partials/botones' %>
     <%= yield %>
     <%= javascript_include_tag "site" %>
   </body>

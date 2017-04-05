@@ -1,0 +1,6 @@
+<div class="other-forms">
+  <h3>Otros formularios de inscripción</h3>
+  <% data.forms.select{ |f| f.name != current_page.data.form }.each do |form| %>
+    <a href="<%= "/#{form.redirect}.html" %>"><%= form.title %></a>
+  <% end %>
+</div>
