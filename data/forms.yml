@@ -1,14 +1,14 @@
 - name: participacion
   link: https://docs.google.com/forms/d/e/1FAIpQLSf-LCjvV-OhyMvA7KLqYzjCilGk-1r3oBfv6nfgKPGdbzOPFA/viewform?embedded=true
   title: Participación
-  redirect: 
+  redirect: registropregala.expobellydance.com
 
 - name: stand
   link: https://docs.google.com/forms/d/e/1FAIpQLScWg9_jy8rJu8OVb5zU23YlHjWeKLsxSVW9viSvYM0kVulS5Q/viewform?embedded=true
   title: Stand
-  redirect: stand
+  redirect: registrostand.expobellydance.com
 
 - name: concurso
   link: https://docs.google.com/forms/d/e/1FAIpQLSdCOeN6p9bR7Dryq4JseKcUK_bYx7IUo7gK7h4YufMGt5k9ZQ/viewform?embedded=true
   title: Concurso
-  redirect: concurso
+  redirect: registroconcurso.expobellydance.com
