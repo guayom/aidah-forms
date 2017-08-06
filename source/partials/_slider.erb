@@ -1,6 +1,6 @@
 <div class="slider-container">
   <ul id="slides">
-    <% [1, 2, 3, 4, 5].each_with_index do |n| %>
+    <% [1, 2, 3, 4].each_with_index do |n| %>
       <li class="slide <%= 'showing' if n == 1 %>">
         <img src="/images/<%= n %>.png" />
       </li>
